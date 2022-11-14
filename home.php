@@ -75,6 +75,12 @@
             <td><?php require("./app.php"); echo $user2_email ?></td>
             <td><?php require("./app.php"); echo $user2_phone_number ?></td>
         </tr>
+        <tr>
+            <td><?php require("./app.php"); echo $user3_id ?></td>
+            <td><?php require("./app.php"); echo $user3_name ?></td>
+            <td><?php require("./app.php"); echo $user3_email ?></td>
+            <td><?php require("./app.php"); echo $user3_phone_number ?></td>
+        </tr>
     </table>
 </body>
 </html>
