@@ -13,6 +13,34 @@
         h1, p{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
+        #user {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #user td, #user th {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #user tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #user tr:hover {
+            background-color: #ddd;
+        }
+
+        #user th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -28,7 +56,7 @@
         echo $par;
         ?>
     </p>
-    <table>
+    <table id="user">
         <legend>This is my table</legend>
         <tr>
             <th>id</th>
