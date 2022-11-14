@@ -1,6 +1,11 @@
 <?php
 
-$header = "Halo nama saya Faisal Ramadhan";
-$par = "Halo nama saya Faisal Ramadhan";
+$database = array(
+    "user1" => "Faisal Ramadhan", 
+    "user2" => "John Smith"
+);
+$header = "Halo nama saya $database[0]";
+$par = "Halo nama saya $database[1]";
+
 
 ?>
