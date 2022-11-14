@@ -4,8 +4,9 @@ $database = array(
     "user1" => "Faisal Ramadhan", 
     "user2" => "John Smith"
 );
-$header = "Halo nama saya $database[0]";
-$par = "Halo nama saya $database[1]";
+
+$header = sprintf("Halo nama saya %s", $database["user1"]);
+$par = sprintf("Halo nama saya %s", $database["user2"]);
 
 
 ?>

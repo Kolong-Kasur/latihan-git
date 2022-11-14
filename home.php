@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: lightseagreen;
+        }
+        h1, p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>
