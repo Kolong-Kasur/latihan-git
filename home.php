@@ -46,16 +46,10 @@
 <body>
     <h1>
         <?php 
-        require("./app.php");
+        require_once("./app.php");
         echo $header;
         ?>
     </h1>
-    <p>
-        <?php
-        require("./app.php");
-        echo $par;
-        ?>
-    </p>
     <table id="user">
         <tr>
             <th>id</th>
@@ -64,22 +58,22 @@
             <th>phone_number</th>
         </tr>
         <tr>
-            <td><?php require("./app.php"); echo $user1_id?></td>
-            <td><?php require("./app.php"); echo $user1_name?></td>
-            <td><?php require("./app.php"); echo $user1_email?></td>
-            <td><?php require("./app.php"); echo $user1_phone_number?></td>
+            <td><?php echo $user1_id?></td>
+            <td><?php echo $user1_name?></td>
+            <td><?php echo $user1_email?></td>
+            <td><?php echo $user1_phone_number?></td>
         </tr>
         <tr>
-            <td><?php require("./app.php"); echo $user2_id ?></td>
-            <td><?php require("./app.php"); echo $user2_name ?></td>
-            <td><?php require("./app.php"); echo $user2_email ?></td>
-            <td><?php require("./app.php"); echo $user2_phone_number ?></td>
+            <td><?php echo $user2_id ?></td>
+            <td><?php echo $user2_name ?></td>
+            <td><?php echo $user2_email ?></td>
+            <td><?php echo $user2_phone_number ?></td>
         </tr>
         <tr>
-            <td><?php require("./app.php"); echo $user3_id ?></td>
-            <td><?php require("./app.php"); echo $user3_name ?></td>
-            <td><?php require("./app.php"); echo $user3_email ?></td>
-            <td><?php require("./app.php"); echo $user3_phone_number ?></td>
+            <td><?php echo $user3_id ?></td>
+            <td><?php echo $user3_name ?></td>
+            <td><?php echo $user3_email ?></td>
+            <td><?php echo $user3_phone_number ?></td>
         </tr>
     </table>
 </body>

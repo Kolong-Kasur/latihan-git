@@ -24,7 +24,6 @@ $database = array(
 );
 
 $header = "Welcome to my Website!";
-$par = "this is my content!";
 
 $user1_id = $database["user"]["user1"]["id"];
 $user2_id = $database["user"]["user2"]["id"];
