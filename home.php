@@ -58,22 +58,22 @@
             <th>phone_number</th>
         </tr>
         <tr>
-            <td><?php echo $user1_id?></td>
-            <td><?php echo $user1_name?></td>
-            <td><?php echo $user1_email?></td>
-            <td><?php echo $user1_phone_number?></td>
+            <td><?php echo $user1->get_id(); ?></td>
+            <td><?php echo $user1->get_name(); ?></td>
+            <td><?php echo $user1->get_email(); ?></td>
+            <td><?php echo $user1->get_phone_number(); ?></td>
         </tr>
         <tr>
-            <td><?php echo $user2_id ?></td>
-            <td><?php echo $user2_name ?></td>
-            <td><?php echo $user2_email ?></td>
-            <td><?php echo $user2_phone_number ?></td>
+            <td><?php echo $user2->get_id(); ?></td>
+            <td><?php echo $user2->get_name(); ?></td>
+            <td><?php echo $user2->get_email(); ?></td>
+            <td><?php echo $user2->get_phone_number(); ?></td>
         </tr>
         <tr>
-            <td><?php echo $user3_id ?></td>
-            <td><?php echo $user3_name ?></td>
-            <td><?php echo $user3_email ?></td>
-            <td><?php echo $user3_phone_number ?></td>
+            <td><?php echo $user3->get_id(); ?></td>
+            <td><?php echo $user3->get_name(); ?></td>
+            <td><?php echo $user3->get_email(); ?></td>
+            <td><?php echo $user3->get_phone_number(); ?></td>
         </tr>
     </table>
 </body>
